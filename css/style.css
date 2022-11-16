@@ -48,13 +48,13 @@ img{
 
 .row{
     display: flex;
-    display: flex;
+    flex-wrap: wrap;
     border: 1px dashed red;
 }
 
 .col{
+
     border: 1px dashed black;
-    min-height: 300px;
     flex-basis: 100%;
     
 }
@@ -99,6 +99,22 @@ img{
 
 /* SECTION GET DEMO */
 
+/* FOOTER */
+
+footer{
+    background-color: #333333;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
 /* MEDIA QUERY */
 
 /* LYOUT FROM TO 577PX */
@@ -107,11 +123,18 @@ img{
 
 @media screen and (min-width: 769px) {
     
+    /* SECTION GET DEMO */
     .h-menu{
         display: none;
     }
     
     #main-navbar ul{
         display: block;
+    }
+
+    /* SECTION PLANNING */
+
+    .plan .col{
+        flex-basis: 50%;
     }
 }
