@@ -53,20 +53,23 @@ img{
     display: flex;
     flex-wrap: wrap;
     border: 1px dashed red;
+    margin: 20px 0
 }
 
 .col{
 
     border: 1px dashed black;
     flex-basis: 100%;
+    padding:10px;
     
 }
 
 .card{
+    border: 1px dashed green;
     background-color: var(--doggerblu);
     border-radius: 20px;
     min-height: 200px;
-    margin: 20px;
+    margin: 20px 0;
     flex-basis: 100%;
 }
 
@@ -123,6 +126,16 @@ footer{
 
 /* LYOUT FROM TO 577PX */
 
+@media screen and (min-width: 577px){
+
+    /* SECTION BENEFITS */
+    
+    .benefits .card{
+        flex-basis: 50%;
+    }
+
+}
+
 /* LAYOUT FROM TO 769PX  */
 
 @media screen and (min-width: 769px) {
@@ -141,4 +154,11 @@ footer{
     .plan .col{
         flex-basis: 50%;
     }
+
+    /* SECTION BENEFITS */
+    
+    .benefits .card{
+        flex-basis: calc(100%/3);
+    }
+
 }
