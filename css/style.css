@@ -134,6 +134,16 @@ footer{
         flex-basis: 50%;
     }
 
+     /* SECTION ABOUT US */
+    
+     .about-rec.card{
+        flex-basis: 30%;
+    }
+
+    .about-info.card{
+        flex-basis: 70%;
+    }
+
 }
 
 /* LAYOUT FROM TO 769PX  */
