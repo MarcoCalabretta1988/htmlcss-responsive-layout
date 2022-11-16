@@ -100,7 +100,7 @@ h2{
 }
 
 .icons{
-    font-size: 90px;
+    font-size: 80px;
     color: var(--blu);
     padding-top: 20px;
 }
@@ -132,8 +132,15 @@ h2{
 
 #main-navbar li{
     display: inline-block;
+    margin: 0 15px;
 }
 
+#main-navbar li:last-child{
+    color: #000;
+    background-color: #fff;
+    padding : 10px 15px;
+    border-radius: 20px;
+}
 /* SECTION GET DEMO */
 
 #get-demo h2{
