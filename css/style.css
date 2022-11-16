@@ -42,6 +42,7 @@ body{
 .txt-center{
     text-align: center;
 }
+
 /* GENERAL */
 
 img{
@@ -71,6 +72,14 @@ img{
     min-height: 200px;
     margin: 20px 0;
     flex-basis: 100%;
+}
+
+section{
+    padding: 20px;
+}
+
+p{
+    padding: 30px;
 }
 
 /* MAIN HEADER */
@@ -111,6 +120,17 @@ img{
 footer{
     background-color: #333333;
     height: 300px;
+    color: #fff;
+    padding: 20px;
+}
+
+
+footer .container{
+    max-width: 400px;
+}
+
+footer a{
+    color: var(--violet);
 }
 
 
@@ -143,7 +163,12 @@ footer{
     .about-info.card{
         flex-basis: 70%;
     }
+    
+    /* FOOTER */
 
+    footer .container{
+        max-width: 480px;
+    }
 }
 
 /* LAYOUT FROM TO 769PX  */
