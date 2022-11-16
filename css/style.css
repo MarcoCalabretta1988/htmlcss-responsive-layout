@@ -39,6 +39,9 @@ body{
     background-color: var(--violet);
 }
 
+.txt-center{
+    text-align: center;
+}
 /* GENERAL */
 
 img{
@@ -64,6 +67,7 @@ img{
     border-radius: 20px;
     min-height: 200px;
     margin: 20px;
+    flex-basis: 100%;
 }
 
 /* MAIN HEADER */
