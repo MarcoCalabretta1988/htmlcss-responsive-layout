@@ -8,6 +8,16 @@
 
 /* UTILITIES */
 
+:root{
+     
+    /* COLOR PALETTE */
+    --violet:#9792E4;
+    --orange:#FDC15F;
+    --blu:#0084FD;
+    --doggerblu:#B5DDFF;
+    
+
+}
 .container{
     max-width: 1200px;
     margin:0 auto;
