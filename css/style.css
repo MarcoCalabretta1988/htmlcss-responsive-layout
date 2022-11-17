@@ -329,8 +329,8 @@ font-weight: bold;
     position: absolute;
     font-size: 75px;
     color: var(--violet);
-    top: -13px;
-    left: 155px;
+    top: 26px;
+    left: 180px;
     z-index: 1;
 }
 
