@@ -36,14 +36,18 @@ body{
     background-color: var(--doggerblu);
 }
 
-.bg-violet{
-    background-color: var(--violet);
-}
 
 .bg-blue{
     background-color: var(--blu);
 }
 
+.bg-violet{
+    background-color: var(--violet);
+}
+
+.txt-violet{
+    color: var(--violet);
+}
 .txt-center{
     text-align: center;
 }
@@ -254,6 +258,36 @@ font-weight: bold;
     margin-left: -50px;
  }
 
+ /* BENEFIT SECTION */
+
+ #benefits{
+    color: #fff;
+ }
+
+ .benefits.card{
+    background-color: #fff;
+    text-align: left;
+    padding: 0 30px;
+ }
+
+ #benefits h2{
+    font-size: 65px;
+    padding-bottom: 10px;
+ }
+
+ #benefits p{
+    color: var(--grey);
+ }
+
+ #benefits h1{
+    padding: 40px 0;
+ }
+
+ #benefits button{
+    color: #fff;
+    margin: 0;
+ }
+
 
 /* FOOTER */
 
@@ -303,12 +337,22 @@ footer a{
         flex-basis: calc( 100% / 3 * 2);
     }
    
+   /* TESTIMONIAL SECTION */
+
+   #testimonials .card{
+    display: flex;
+   }
 
 
     /* SECTION BENEFITS */
     
-    .benefits .card{
+
+    .benefits .col{
         flex-basis: 50%;
+    }
+
+    .benefits .row{
+        margin: 0 -40px;
     }
 
      /* SECTION ABOUT US */
@@ -321,12 +365,7 @@ footer a{
         flex-basis: 70%;
     }
     
-    /* TESTIMONIAL SECTION */
-
-   #testimonials .card{
-     display: flex;
-   }
-
+    
 
     /* FOOTER */
 
@@ -382,7 +421,7 @@ footer a{
 
      /* SECTION BENEFITS */
 
-    .benefits .card{
+    .benefits .col{
         flex-basis: calc(100%/3);
     }
 
