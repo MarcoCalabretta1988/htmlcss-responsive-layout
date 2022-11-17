@@ -50,10 +50,6 @@ body{
 
 /* GENERAL */
 
-img{
-    max-width: 100%;
-    display: inline-block;
-}
 
 .row{
     display: flex;
@@ -85,7 +81,7 @@ button{
 }
 
 section{
-    padding: 25px 0;
+    padding: 25px;
 }
 
 section:nth-child(even){
@@ -94,12 +90,12 @@ section:nth-child(even){
 
 p{
     padding: 30px 0;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 h1{
     padding: 20px 0;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h2{
@@ -192,6 +188,10 @@ font-weight: bold;
 
 /* PLANNING SECTION */
 
+#planning img{
+    max-width: 100%;
+}
+
 .strategic.card{
     background-color: var(--violet);
     padding-top: 25px;
@@ -219,7 +219,42 @@ font-weight: bold;
 }
 
 /* TESTIMONIAL SECTION */
- 
+
+#testimonials{
+    padding: 100px 50px;
+}
+ .testimonial.row{
+    flex-direction: column;
+ }
+
+ #testimonials p{
+    font-size: 20px;
+ }
+
+ #testimonials h1{
+    color: var(--violet);
+ }
+
+ .testimonial.card{
+    padding: 25px;
+    color: #fff;
+ }
+
+ .ret-circular{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+ }
+
+ .testimonial img{
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+ }
+
+
 /* FOOTER */
 
 footer{
@@ -286,6 +321,13 @@ footer a{
         flex-basis: 70%;
     }
     
+    /* TESTIMONIAL SECTION */
+
+   #testimonials .card{
+     display: flex;
+   }
+
+
     /* FOOTER */
 
     footer .container{
@@ -334,10 +376,6 @@ footer a{
         width: 250px;
      }
 
-     .app h1{
-        font-size: 25px;
-     }
-     
      #planning .container{
         padding: 0 100px;
      }
