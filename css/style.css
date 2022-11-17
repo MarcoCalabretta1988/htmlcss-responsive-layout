@@ -331,6 +331,7 @@ font-weight: bold;
     color: var(--violet);
     top: -13px;
     left: 155px;
+    z-index: 1;
 }
 
 /* GET STARTED SECTION */
