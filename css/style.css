@@ -288,6 +288,35 @@ font-weight: bold;
     margin: 0;
  }
 
+/* GET STARTED SECTION */
+
+#get-started{
+    color: #fff;
+}
+
+#get-started h2{
+    font-size: 35px;
+}
+
+#get-started h1{
+    color:var(--orange);
+    font-size: 80px;
+}
+
+#get-started button {
+    color: var(--violet);
+    padding: 20px 90px;
+    border-radius: 50px;
+    font-size: 19px;
+}
+
+#get-started a{
+    color: #fff;
+}
+
+#get-started .container{
+    max-width: 600px;
+}
 
 /* FOOTER */
 
@@ -365,7 +394,11 @@ footer a{
         flex-basis: 70%;
     }
     
-    
+    /* SECTION GET STARTED */
+
+    #get-started h2{
+        font-size: 50px;
+    }
 
     /* FOOTER */
 
