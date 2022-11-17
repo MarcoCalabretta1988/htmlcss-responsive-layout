@@ -75,10 +75,6 @@ body{
     padding: 0 20px;
 }
 
-img{
-    max-width: 100%;
-    display: inline-block;
-}
 
 button{
     padding: 10px 50px;
@@ -319,6 +315,7 @@ font-weight: bold;
  #about-us img{
     border-radius: 50%;
     width: 190px;
+    max-width: 100%;
  }
 
  #about-us a{
@@ -418,7 +415,20 @@ footer a{
 
    #testimonials .card{
     display: flex;
+    justify-content: space-between;
    }
+
+   .ret-circular{
+    flex-basis: 200px;
+    flex-shrink: 0;
+   }
+
+
+ .testimonial-content{
+    flex-basis: 80%;
+    padding: 0 20px;
+
+ }
 
 
     /* SECTION BENEFITS */
